@@ -1,0 +1,52 @@
+package com.seleniumtests.blogexamples.driversetup;
+
+import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class BaseClassOnDemandDriverSetupWithProxy {
+
+    private WebDriver driver;
+
+    @BeforeMethod
+    public void setupTest() {
+        // Any other set up goes here
+    }
+
+    @AfterMethod
+    public void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+
+    public WebDriver getDriver() {
+        if (driver == null) {
+            ChromeOptions chromeOptions = new ChromeOptions();
+            WebDriverManager.chromedriver().setup();
+
+            // ZAP proxy config
+            String zapProxyHost = "127.0.0.1";
+            String zapProxyPort = "8082";
+
+            //set the proxy to use ZAP host and port
+            String proxyAddress = zapProxyHost + ":" + zapProxyPort;
+            Proxy zap_proxy = new Proxy();
+            zap_proxy.setHttpProxy(proxyAddress).setSslProxy(proxyAddress);
+
+            chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.setAcceptInsecureCerts(true);
+            chromeOptions.setProxy(zap_proxy);
+            //chromeOptions.setCapability(CapabilityType.PROXY, zap_proxy);
+            driver = new ChromeDriver(chromeOptions);
+        }
+        return driver;
+    }
+}
