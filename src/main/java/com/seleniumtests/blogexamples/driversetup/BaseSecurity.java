@@ -8,7 +8,9 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.zaproxy.clientapi.core.Alert;
 import org.zaproxy.clientapi.core.ApiResponse;
 import org.zaproxy.clientapi.core.ApiResponseElement;
@@ -118,7 +120,7 @@ public class BaseSecurity extends BaseClassOnDemandDriverSetupWithProxy {
 //
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterTest(alwaysRun = true)
     public void generateScanReport() throws ClientApiException, IOException {
         byte[] bytes = clientApi.core.htmlreport();
         // storing the bytes in to html report.

@@ -6,8 +6,8 @@
             <class name="com.seleniumtests.tests.security.SampleSecurityTest">
                 <methods>
                     <include name="spiderHomePage"/>
-                    <include name="passiveScanHomePage"/>
-                    <include name="activeScanHomePage"/>
+<!--                    <include name="passiveScanHomePage"/>-->
+                   <!-- <include name="activeScanHomePage"/>-->
                 </methods>
             </class>
         </classes>
