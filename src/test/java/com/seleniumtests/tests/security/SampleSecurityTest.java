@@ -7,8 +7,8 @@ import org.zaproxy.clientapi.core.ClientApiException;
 
 public class SampleSecurityTest extends BaseSecurity {
 
-    private static final String JUICE_SHOP = "https://juice-shop.herokuapp.com/";
-    //private static final String JUICE_SHOP = "https://www.flipkart.com/";
+    //private static final String JUICE_SHOP = "https://juice-shop.herokuapp.com/";
+    private static final String JUICE_SHOP = "https://www.flipkart.com/";
     @Test()
     public void spiderHomePage() throws ClientApiException, InterruptedException {
         getDriver().get(JUICE_SHOP);
