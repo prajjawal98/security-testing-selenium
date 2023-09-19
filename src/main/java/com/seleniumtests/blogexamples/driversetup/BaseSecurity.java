@@ -47,7 +47,6 @@ public class BaseSecurity extends BaseClassOnDemandDriverSetupWithProxy {
 
     public static void waitForPassiveScanToComplete() throws ClientApiException {
         try {
-            // Passive scanner are run by default: https://stackoverflow.com/a/35944273/270835
             clientApi.pscan.enableAllScanners(); // enables all passive scanner.
 
             ApiResponse response = clientApi.pscan.recordsToScan();
@@ -121,7 +120,7 @@ public class BaseSecurity extends BaseClassOnDemandDriverSetupWithProxy {
 //
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void generateScanReport() throws ClientApiException, IOException {
         byte[] bytes = clientApi.core.htmlreport();
         // storing the bytes in to html report.
