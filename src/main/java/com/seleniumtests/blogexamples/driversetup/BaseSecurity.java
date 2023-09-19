@@ -21,8 +21,9 @@ import org.zaproxy.clientapi.core.ClientApiException;
 import com.google.common.base.Preconditions;
 
 public class BaseSecurity extends BaseClassOnDemandDriverSetupWithProxy {
+    private static String API_KEY= "86gfv11sktfg13tukutrq14r3t";
 
-    private static ClientApi clientApi = new ClientApi("127.0.0.1", 8082, "86gfv11sktfg13tukutrq14r3t");
+    private static ClientApi clientApi = new ClientApi("127.0.0.1", 8082, null);
     private static String securityTestReportPath = "target/zap-security-report.html";
 
     public static void spiderTarget(String targetURL) throws InterruptedException, ClientApiException {
