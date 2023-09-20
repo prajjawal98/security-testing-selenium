@@ -36,7 +36,6 @@ public class BaseClassOnDemandDriverSetupWithProxy {
         if (driver == null) {
            // System.setProperty("webdriver.chrome.driver", "chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
-            //FirefoxOptions chromeOptions = new FirefoxOptions();
 
             // ZAP proxy config
             String zapProxyHost = "localhost";
@@ -57,8 +56,6 @@ public class BaseClassOnDemandDriverSetupWithProxy {
             chromeOptions.setAcceptInsecureCerts(true);
 
             WebDriverManager.chromedriver().setup();
-            //FirefoxDriverManager.firefoxdriver().setup();
-            //driver = new FirefoxDriver(chromeOptions);
             driver = new ChromeDriver(chromeOptions);
         }
         return driver;
