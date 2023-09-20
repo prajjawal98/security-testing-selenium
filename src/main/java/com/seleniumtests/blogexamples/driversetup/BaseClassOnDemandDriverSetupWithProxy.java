@@ -34,7 +34,7 @@ public class BaseClassOnDemandDriverSetupWithProxy {
 
     public WebDriver getDriver() {
         if (driver == null) {
-           // System.setProperty("webdriver.chrome.driver", "chromedriver");
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
 
             // ZAP proxy config
@@ -47,6 +47,7 @@ public class BaseClassOnDemandDriverSetupWithProxy {
             zap_proxy.setHttpProxy(proxyAddress);
             zap_proxy.setSslProxy(proxyAddress);
             chromeOptions.setCapability("proxy", zap_proxy);
+            chromeOptions.setBinary("/usr/bin/google-chrome");
             chromeOptions.addArguments("disable-infobars");
             chromeOptions.addArguments("--headless");
             chromeOptions.addArguments("--disable-extensions"); // disabling extensions
