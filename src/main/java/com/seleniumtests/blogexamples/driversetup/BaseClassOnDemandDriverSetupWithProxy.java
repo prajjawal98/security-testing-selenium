@@ -1,5 +1,6 @@
 package com.seleniumtests.blogexamples.driversetup;
 
+import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,8 +34,9 @@ public class BaseClassOnDemandDriverSetupWithProxy {
 
     public WebDriver getDriver() {
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "chromedriver");
+           // System.setProperty("webdriver.chrome.driver", "chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
+            //FirefoxOptions chromeOptions = new FirefoxOptions();
 
             // ZAP proxy config
             String zapProxyHost = "localhost";
@@ -46,15 +48,17 @@ public class BaseClassOnDemandDriverSetupWithProxy {
             zap_proxy.setHttpProxy(proxyAddress);
             zap_proxy.setSslProxy(proxyAddress);
             chromeOptions.setCapability("proxy", zap_proxy);
-            chromeOptions.addArguments("disable-infobars"); // disabling infobars
+            chromeOptions.addArguments("disable-infobars");
+            chromeOptions.addArguments("--headless");
             chromeOptions.addArguments("--disable-extensions"); // disabling extensions
             chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.addArguments("--no-sandbox");
             chromeOptions.setAcceptInsecureCerts(true);
 
-
-            chromeOptions.setHeadless(true);
             WebDriverManager.chromedriver().setup();
+            //FirefoxDriverManager.firefoxdriver().setup();
+            //driver = new FirefoxDriver(chromeOptions);
             driver = new ChromeDriver(chromeOptions);
         }
         return driver;

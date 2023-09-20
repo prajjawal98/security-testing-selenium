@@ -81,10 +81,10 @@ ZAP Scanning Report
                 <td><a href="#high">High</a></td><td align="center">0</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td><a href="#medium">Medium</a></td><td align="center">1</td>
+                <td><a href="#medium">Medium</a></td><td align="center">5</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td><a href="#low">Low</a></td><td align="center">15</td>
+                <td><a href="#low">Low</a></td><td align="center">13</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td><a href="#info">Informational</a></td><td align="center">0</td>
@@ -92,6 +92,250 @@ ZAP Scanning Report
         </table>
         <div class="spacer-lg"></div>
         <h3>Alert Detail</h3>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-medium">
+                <th width="20%"><a name="medium"></a>Medium (High)</th><th width="80%">Session ID in URL Rewrite</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>URL rewrite is used to track user session ID. The session ID may be disclosed via cross-site referer header. In addition, the session ID might be stored in browser history or server logs.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYui&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=websocket&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53J&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYza&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYui&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53W&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=websocket&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ5Ds&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53J&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYuz&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQZLw&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">sid</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">11</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>For secure content, put session ID in a cookie. To be even more secure consider using a combination of cookie and URL rewrite.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>http://seclists.org/lists/webappsec/2002/Oct-Dec/0111.html</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">200</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
         <div class="spacer"></div>
         <table width="100%" class="results">
               
@@ -114,7 +358,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://www.herokucdn.com/error-pages/application-error.html</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -129,6 +373,284 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%">Instances</td><td width="80%">1</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it's set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. ALLOW-FROM allows specific websites to frame the web page in supported web browsers).</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">16</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">15</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-medium">
+                <th width="20%"><a name="medium"></a>Medium (Medium)</th><th width="80%">X-Frame-Options Header Not Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>X-Frame-Options header is not included in the HTTP response to protect against 'ClickJacking' attacks.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&amp;target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&amp;target=OPTIMIZATION_TARGET_PAGE_VISIBILITY</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839784&amp;target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839773&amp;target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it's set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. ALLOW-FROM allows specific websites to frame the web page in supported web browsers).</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">16</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">15</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-medium">
+                <th width="20%"><a name="medium"></a>Medium (Medium)</th><th width="80%">Application Error Disclosure</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/rest/admin</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">HTTP/1.1 500 Internal Server Error</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/rest</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">HTTP/1.1 500 Internal Server Error</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/api</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">HTTP/1.1 500 Internal Server Error</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/rest/products</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">HTTP/1.1 500 Internal Server Error</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p></p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">200</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-medium">
+                <th width="20%"><a name="medium"></a>Medium (Medium)</th><th width="80%">X-Frame-Options Header Not Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>X-Frame-Options header is not included in the HTTP response to protect against 'ClickJacking' attacks.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYui&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53J&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Frame-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">2</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -174,11 +696,11 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://bam.nr-data.net/1/NRBR-38328c6e5ac5be07175?a=1588753058&amp;sa=1&amp;v=1.236.0&amp;t=Unnamed%20Transaction&amp;rst=21305&amp;ck=0&amp;s=8a0daf90d5f58a10&amp;ref=https://www.flipkart.com/&amp;af=err,xhr,stn,ins,spa&amp;be=4006&amp;fe=14195&amp;dc=7842&amp;perf=%7B%22timing%22:%7B%22of%22:1695188566968,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:1468,%22s%22:1472,%22ce%22:2398,%22rq%22:2398,%22rp%22:4006,%22rpe%22:4330,%22di%22:6615,%22ds%22:11847,%22de%22:11848,%22dc%22:18176,%22l%22:18176,%22le%22:18201%7D,%22navigation%22:%7B%7D%7D&amp;fp=4941&amp;fcp=4941</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://www.herokucdn.com/error-pages/application-error.html</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -241,15 +763,19 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://bam.nr-data.net/1/NRBR-38328c6e5ac5be07175?a=1588753058&amp;sa=1&amp;v=1.236.0&amp;t=Unnamed%20Transaction&amp;rst=21305&amp;ck=0&amp;s=8a0daf90d5f58a10&amp;ref=https://www.flipkart.com/&amp;af=err,xhr,stn,ins,spa&amp;be=4006&amp;fe=14195&amp;dc=7842&amp;perf=%7B%22timing%22:%7B%22of%22:1695188566968,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:1468,%22s%22:1472,%22ce%22:2398,%22rq%22:2398,%22rp%22:4006,%22rpe%22:4330,%22di%22:6615,%22ds%22:11847,%22de%22:11848,%22dc%22:18176,%22l%22:18176,%22le%22:18201%7D,%22navigation%22:%7B%7D%7D&amp;fp=4941&amp;fcp=4941</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://www.herokucdn.com/error-pages/application-error.html</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">max-age=86400, public</td>
             </tr>
               
   
@@ -268,1349 +794,6 @@ ZAP Scanning Report
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%">CWE Id</td><td width="80%">525</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/page_view_timing-aggregate.bd6de33a-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/async-api.30bd804e-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/148.1a20d5fe-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/860.03a8b7a5-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/lazy-feature-loader.2f55ce66-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/page_view_event-aggregate.06482edd-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/ajax-aggregate.998ef92b-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/jserrors-aggregate.49e41428-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/session-manager.2a64278a-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/metrics-aggregate.3dc53903-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At "High" threshold this scanner will not alert on client or server error responses.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://www.owasp.org/index.php/List_of_useful_HTTP_headers</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">15</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://collector-pxgnttli3a.px-cloud.net/api/v2/collector</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At "High" threshold this scanner will not alert on client or server error responses.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://www.owasp.org/index.php/List_of_useful_HTTP_headers</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">15</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://collector-pxgnttli3a.px-cloud.net/api/v2/collector</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">525</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://dpm.demdex.net/id?d_visid_ver=1.5.4&amp;d_rtbd=json&amp;d_ver=2&amp;d_orgid=17EB401053DAF4840A490D4C%40AdobeOrg&amp;d_nsid=0&amp;d_cb=s_c_il%5B0%5D._setMarketingCloudFields</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At "High" threshold this scanner will not alert on client or server error responses.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://www.owasp.org/index.php/List_of_useful_HTTP_headers</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">15</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Cookie No HttpOnly Flag</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://dpm.demdex.net/id?d_visid_ver=1.5.4&amp;d_rtbd=json&amp;d_ver=2&amp;d_orgid=17EB401053DAF4840A490D4C%40AdobeOrg&amp;d_nsid=0&amp;d_cb=s_c_il%5B0%5D._setMarketingCloudFields</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">demdex</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">set-cookie: demdex</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the HttpOnly flag is set for all cookies.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://www.owasp.org/index.php/HttpOnly</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/en-js.f3cc74.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/commonLazyLoadChunk.9be37a.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.399aca.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MultiWidgetpage.5cceb3.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/lazyLoadChunk.d8acfe.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/CrossCommon.e39c08.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/PXgNtTli3A/main.min.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/CrossCommon.3d2145.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/BaseActionNonCritical.744b51.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.08981e.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/commonLazyLoadChunk.54012e.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OVHomePageTS.e8137f.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OmnitureLazyChunk.3129c6.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MapiActionNonCriticalActions.8cf6f4.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OVHomePageTS.106b44.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/omniv31-1.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MultiWidgetpage.12cd2d.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/lazyLoadChunk.071250.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">21</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At "High" threshold this scanner will not alert on client or server error responses.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://www.owasp.org/index.php/List_of_useful_HTTP_headers</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">15</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/www/linchpin/batman-returns/codes.json</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">max-age=305816043</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/OVHomePageTS.e8137f.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=31361819</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/commonLazyLoadChunk.9be37a.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=29202540</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/MultiWidgetpage.5cceb3.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=31320996</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/CrossCommon.3d2145.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=21764639</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/lazyLoadChunk.071250.css</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=30238247</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">6</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">525</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Cookie Without Secure Flag</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">at</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: at</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">SN</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: SN</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">K-ACTION</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: K-ACTION</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">3</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://www.owasp.org/index.php/Testing_for_cookies_attributes_(OWASP-SM-002)</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">614</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Cookie No HttpOnly Flag</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">T</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: T</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure that the HttpOnly flag is set for all cookies.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>http://www.owasp.org/index.php/HttpOnly</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">16</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">13</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Cross-Domain JavaScript Source File Inclusion</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>The page includes one or more script files from a third-party domain.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.08981e.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.08981e.js" defer="defer" crossorigin="anonymous" nonce="4053330336"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.399aca.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.399aca.js" defer="defer" crossorigin="anonymous" nonce="4053330336"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.08981e.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fkvendor.08981e.js" defer="defer" crossorigin="anonymous" nonce="2521198088"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.399aca.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/app.399aca.js" defer="defer" crossorigin="anonymous" nonce="2521198088"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">4</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p></p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">829</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">WASC Id</td><td width="80%">15</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Source ID</td><td width="80%">3</td>
-            </tr>
-            
-        </table>
-        <div class="spacer"></div>
-        <table width="100%" class="results">
-              
-  
-  
-            <tr height="24" class="risk-low">
-                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Private IP Disclosure</th>
-            </tr>
-              
-  
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Description</td><td width="80%"><p>A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.</p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">10.54.246.57</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">10.54.246.104</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">2</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Solution</td><td width="80%"><p>Remove the private IP address from the HTTP response body.  For comments, use JSP/ASP/PHP comment instead of HTML/JavaScript comment which can be seen by client browsers.</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>10.54.246.57</p><p></p></td>
-            </tr>
-            <TR vAlign="top">
-                <TD colspan="2"></TD>
-            </TR>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">Reference</td><td width="80%"><p>https://tools.ietf.org/html/rfc1918</p></td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%">CWE Id</td><td width="80%">200</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1644,7 +827,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://www.herokucdn.com/error-pages/application-error.html</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1695,6 +878,124 @@ ZAP Scanning Report
   
   
             <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&amp;target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=86400</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839773&amp;target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=86400</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&amp;target=OPTIMIZATION_TARGET_PAGE_VISIBILITY</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=86400</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839784&amp;target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=86400</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">525</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
                 <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
             </tr>
               
@@ -1711,7 +1012,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://www.flipkart.com/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839773&amp;target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1725,7 +1026,49 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">1</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&amp;target=OPTIMIZATION_TARGET_PAGE_VISIBILITY</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&amp;target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839784&amp;target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1749,6 +1092,1614 @@ ZAP Scanning Report
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%">WASC Id</td><td width="80%">15</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Web Browser XSS Protection Not Enabled</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>Web Browser XSS Protection is not enabled, or is disabled by the configuration of the 'X-XSS-Protection' HTTP response header on the web server</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1679317318&amp;target=OPTIMIZATION_TARGET_LANGUAGE_DETECTION</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839784&amp;target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1693839773&amp;target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://optimizationguide-pa.googleapis.com/downloads?name=1673999601&amp;target=OPTIMIZATION_TARGET_PAGE_VISIBILITY</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Ensure that the web browser's XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to '1'.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Other information</td><td width="80%"><p>The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser's XSS protection mechanism. The following values would attempt to enable it: </p><p>X-XSS-Protection: 1; mode=block</p><p>X-XSS-Protection: 1; report=http://www.example.com/xss</p><p>The following values would disable it:</p><p>X-XSS-Protection: 0</p><p>The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).</p><p>Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet</p><p>https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">933</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">14</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTE0LjAuNTczNS4xMzMSEAn2jKxfXLh0YBIFDRUXmhE=?alt=proto</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">private,max-age=604800</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">1</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">525</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=30672000</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">1</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">525</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Cross-Domain JavaScript Source File Inclusion</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The page includes one or more script files from a third-party domain.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/assets/public/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">254</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p></p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">829</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">15</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Web Browser XSS Protection Not Enabled</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>Web Browser XSS Protection is not enabled, or is disabled by the configuration of the 'X-XSS-Protection' HTTP response header on the web server</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQxX9</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/assets/public</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/assets/public/assets/public</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/assets/public/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/assets/public/assets/public</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/en.json</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/rest/products</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/assets/public</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-XSS-Protection</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">216</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Ensure that the web browser's XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to '1'.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Other information</td><td width="80%"><p>The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser's XSS protection mechanism. The following values would attempt to enable it: </p><p>X-XSS-Protection: 1; mode=block</p><p>X-XSS-Protection: 1; report=http://www.example.com/xss</p><p>The following values would disable it:</p><p>X-XSS-Protection: 0</p><p>The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).</p><p>Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet</p><p>https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">933</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">14</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Incomplete or No Cache-control and Pragma HTTP Header Set</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYuz&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/assets/public/assets/public/assets/public/runtime.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQZLw&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/assets/public/assets/public/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/assets/public/vendor.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/products/assets/public/favicon_js.ico</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/i18n/assets/public/assets/public/assets/public/polyfills.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/api/Quantitys/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/images/assets/public/styles.css</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53W&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ4rr</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/assets/public/main.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">public, max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">145</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate; and that the pragma HTTP header is set with no-cache.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">525</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">X-Content-Type-Options Header Missing</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQZLw&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYuz&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ4rr</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYi-</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ5Ds&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53J&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYza&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQYui&amp;sid=B18t_lC56JelUiNpAADV</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/socket.io/?EIO=4&amp;transport=polling&amp;t=OgnQ53W&amp;sid=PHUIFf1cVIBuUfAmAARN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">9</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Other information</td><td width="80%"><p>This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At "High" threshold this scanner will not alert on client or server error responses.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://www.owasp.org/index.php/List_of_useful_HTTP_headers</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">16</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">15</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Source ID</td><td width="80%">3</td>
+            </tr>
+            
+        </table>
+        <div class="spacer"></div>
+        <table width="100%" class="results">
+              
+  
+  
+            <tr height="24" class="risk-low">
+                <a name="low"></a><th width="20%">Low (Medium)</th><th width="80%">Private IP Disclosure</th>
+            </tr>
+              
+  
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Description</td><td width="80%"><p>A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.</p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://juice-shop.herokuapp.com/rest/admin/application-configuration</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">192.168.99.100:3000</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">1</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Solution</td><td width="80%"><p>Remove the private IP address from the HTTP response body.  For comments, use JSP/ASP/PHP comment instead of HTML/JavaScript comment which can be seen by client browsers.</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Other information</td><td width="80%"><p>192.168.99.100:3000</p><p>192.168.99.100:4200</p><p></p></td>
+            </tr>
+            <TR vAlign="top">
+                <TD colspan="2"></TD>
+            </TR>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Reference</td><td width="80%"><p>https://tools.ietf.org/html/rfc1918</p></td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">CWE Id</td><td width="80%">200</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">WASC Id</td><td width="80%">13</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
