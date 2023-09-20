@@ -50,7 +50,7 @@ public class BaseClassOnDemandDriverSetupWithProxy {
             chromeOptions.setAcceptInsecureCerts(true);
 
 
-            //chromeOptions.setHeadless(true);
+            chromeOptions.setHeadless(true);
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(chromeOptions);
         }
