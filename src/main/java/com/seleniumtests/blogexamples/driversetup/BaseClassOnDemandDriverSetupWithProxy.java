@@ -46,6 +46,9 @@ public class BaseClassOnDemandDriverSetupWithProxy {
             zap_proxy.setHttpProxy(proxyAddress);
             zap_proxy.setSslProxy(proxyAddress);
             chromeOptions.setCapability("proxy", zap_proxy);
+            chromeOptions.addArguments("disable-infobars"); // disabling infobars
+            chromeOptions.addArguments("--disable-extensions"); // disabling extensions
+            chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.addArguments("--ignore-certificate-errors");
             chromeOptions.setAcceptInsecureCerts(true);
 
